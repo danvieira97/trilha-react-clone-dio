@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Danilo",
+      "email": "danilo@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Natalia",
+      "email": "natalia@email.com",
+      "senha": "123456"
+    },
+    {
+      "name": "Danilo Lopes",
+      "email": "danilo@email.com",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "name": "Murilo Lopes",
+      "email": "murilo@email.com",
+      "password": "1234567",
+      "id": 4
+    },
+    {
+      "name": "da",
+      "id": 5
+    }
+  ]
+}
