@@ -15,7 +15,7 @@ const Register = () => {
         mode: 'onChange',
     });
 
-    const onSubmit = async (formData) => {
+    const onSubmit = async (formData: any) => {
         const {data} = await api.post('/users', formData)
         
         if(data.id){
@@ -25,7 +25,7 @@ const Register = () => {
 
  return (
     <>
-        <Header />
+        <Header autenticado={false}/>
         <Container>
             <Column>
                 <Title>

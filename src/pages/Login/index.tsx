@@ -19,7 +19,7 @@ const Login = () => {
         mode: 'onChange',
     });
 
-    const onSubmit = async (formData) => {
+    const onSubmit = async (formData: any) => {
         try{
             const {data} = await api.get(`/users?email=${formData.email}&senha=${formData.senha}`);
             
@@ -37,7 +37,7 @@ const Login = () => {
     console.log('errors', errors);
 
     return (<>
-        <Header />
+        <Header autenticado={false}/>
         <Container>
             <Column>
                 <Title>A plataforma para você aprender com experts, dominar as principais tecnologias
